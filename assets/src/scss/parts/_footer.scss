@@ -1,0 +1,15 @@
+.footer {
+  &__box {
+    padding: 70px 0 70px;
+  }
+&__description {
+  font-family: $title-font-family-1;
+  font-size: 16px;
+  text-align: right;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+  &__social {
+    justify-content: flex-end;
+  }
+}

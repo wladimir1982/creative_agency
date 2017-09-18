@@ -1,0 +1,59 @@
+.header {
+  background-color: $color_2;
+  @include bg-img('img/layer-4.png');
+  margin-bottom: 100px;
+  &__logo {
+    color: #60606e;
+    font-family: $title-font-family;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+  &__logo:hover {
+    text-decoration: none;
+    color: #7beec7;
+  }
+  &__container {
+    min-height: 500px;
+  }
+  &__navigation {
+    padding-top: 42px;
+  }
+  &__menu-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title {
+    color: #60606e;
+    font-family: $title-font-family;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+  }
+  &__subtitle {
+    text-align: center;
+
+    font-family: $title-font-family;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 48px;
+    text-transform: uppercase;
+    &-link {
+      text-decoration: none;
+      color: #60606e;
+      transition: all .3s;
+    }
+    &-link:hover {
+      text-decoration: none;
+      color: #7beec7;
+    }
+  }
+}
